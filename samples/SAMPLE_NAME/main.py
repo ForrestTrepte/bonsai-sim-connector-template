@@ -10,7 +10,7 @@ config_client = BonsaiClientConfig()
 client = BonsaiClient(config_client)
 
 registration_info = SimulatorInterface(
-    name="SAMPLE_NAME-sim",
+    name="MY_SIMULATOR_NAME",
     timeout=60,
     simulator_context=config_client.simulator_context,
     description=None,
